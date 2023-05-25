@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    padding: 45px;
+    background-image: url(/pictures/bg-tablet-pattern.svg);
+    background-size: contain;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    color: hsl(228, 39%, 23%);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+.hambuger{
+    display: none;
+}
+
+button{
+    all: unset;
+    padding: 10px 20px;
+    border-radius: 27px;
+    background-color: rgb(255, 138, 95);
+    box-shadow: .2em .05em .7em  rgb(255, 138, 95);
+}
+
+button a{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: hsl(228, 39%, 23%);
+}
+
+.section1{
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    gap: 5px;
+    padding: 50px 0px 50px 50px;
+}
+
+.sec1div1 h1{
+    font-size:47px;
+    color: hsl(228, 39%, 23%);
+}
+
+.sec1div1 p{
+    width: 90%;
+    margin: 25px 0px;
+    font-size: 16px;
+    color: hsla(0, 0%, 50%, 0.438)
+}
+
+.sec1div1 button{
+    all: unset;
+    padding: 10px 20px;
+    border-radius: 27px;
+    background-color: rgb(255, 138, 95);
+    box-shadow: .2em .05em .7em  rgb(255, 138, 95);
+}
+
+.sec1div1 button a{
+    color: white;
+}
+
+.section1 img{
+    width: 55%;
+    margin: auto;
+    background-image: url(/pictures/bg-simplify-section-desktop.svg);
+}
+
+.section2{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 50px;
+    padding: 50px 50px;
+} 
+
+.section2 ol{
+    width: 90%;
+}
+
+.section2 li h1{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section2 li{
+    margin-bottom: 30px;
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+.section2 .sec2div1 h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: hsl(228, 39%, 23%);   
+}
+
+.section2 p{
+    color: hsla(0, 0%, 50%, 0.438)
+}
+
+.section3 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section3{
+    text-align: center;
+}
+
+.section3 h1{
+    padding: 30px 0 10px;
+    color: hsl(228, 39%, 23%);   
+}
+
+.section3 button{
+    all: unset;
+    padding: 10px 20px;
+    margin: 60px 0;
+    border-radius: 27px;
+    background-color: rgb(255, 138, 95);
+    box-shadow: .2em .05em .7em  rgb(255, 138, 95);
+}
+
+.sec3UL h1{
+    font-size: 16px;
+    padding: 10px 0 10px;
+}
+
+.sec3UL p{
+    color: hsla(0, 0%, 50%, 0.438);
+    font-size: 16px;
+    margin: 10px 10px 25px;
+}
+
+.sec3UL{
+   text-align: center;
+   background-color: whitesmoke;
+   margin: 90px 0px 0px;
+}
+
+.sec3UL img{
+    width: 40%;
+   margin-top: -50px;
+}
+
+.section4{
+    background-color: rgb(255, 138, 95);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 60px;
+    background-image: url(/pictures/bg-simplify-section-desktop.svg);
+}
+
+.section4 h1{
+    color: white;
+    font-size: 35px;
+    width: 50%;
+    font-weight:400;
+}
+
+.section4 button{
+    all: unset;
+    padding: 10px 20px;
+    margin: 60px 0;
+    border-radius: 27px;
+    background-color: white;
+}
+
+.section4 button a{
+    color: rgb(255, 138, 95);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: hsl(228, 39%, 23%);
+    padding: 50px 0;    
+}
+
+footerD1{
+    flex-direction: column;
+}
+
+.footerD1 div{
+    filter:invert(1);
+    margin-bottom: 35px;
+}
+
+.footerD1 img{
+    margin-right: 10px;
+}
+
+ footer li, footer a{
+    color: white;
+    line-height: 1.8rem;
+}
+
+.input{
+    display: flex;
+}
+
+.input .input1 input{
+    all: unset;
+    padding: 10px 20px;
+    border-radius: 27px;
+    background-color: white;
+}
+
+.input .input2 input{
+    all: unset;
+    padding: 8px 20px;
+    border-radius: 27px;
+    background-color: rgb(255, 138, 95);
+    margin-left: 10px;
+}
+
+@media screen and (max-width:992px){
+
+    button{
+    display: none;
+}
+
+.section3 ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;    
+}
+
+.sec1div1 h1{
+    font-size:30px;
+    color: hsl(228, 39%, 23%);
+}
+}
+
+@media screen and (max-width:768px){
+
+    .section2{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    } 
+    
+
+.section3 ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.section2 li{
+    list-style-type: none;
+}
+
+.sec1div1 h1{
+    font-size:45px;
+    color: hsl(228, 39%, 23%);
+}
+
+nav ul{
+    display: none;
+}
+
+.hambuger{
+    display: block;
+}
+
+.section1 img{
+    width: 100%;
+}
+
+.section1{
+    flex-direction: column-reverse;
+}
+
+.sec1div1 {
+    text-align: center;
+}
+
+.section1{
+    padding: 0;
+    margin-top: 25px;
+}
+
+.sec1div1 p{
+    width: 100%;
+}
+
+.section4{
+    padding: 30px 20px;
+}
+
+.section4 h1{
+    width: 65%;
+}
+}
+
+@media screen and (max-width:576px){
+
+    .sec1div1 h1{
+        font-size:30px;
+    }
+    
+    .section2 .sec2div1 h1{
+        font-size:35px;
+    }
+
+    .section4{
+        flex-direction: column;
+    }
+
+    .section4 button{
+        margin: 20px 0;
+    }
+
+    .section4 h1 {
+        width: 85%;
+        text-align: center;
+    }
+
+    
+
+    .section2 {
+        padding: 50px 10px;
+    }
+
+    .input .input1 input {
+        padding: 10px 5px;
+        border-radius: 27px;
+    }
+
+    .input .input2 input {
+        padding: 5px 10px;
+        margin-left: 5px;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width:375px){
+    body{
+        padding: 0px;
+    }
+
+    nav {
+        margin: 20px;
+    }
+
+    footer{
+        flex-direction: column-reverse;   
+    }
+}
