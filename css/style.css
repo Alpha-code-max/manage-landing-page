@@ -3,23 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 body{
-    font-family: 'Be Vietnam Pro', sans-serif;
+    
     font-size: 16px;
     padding: 45px;
     background-image: url(/pictures/bg-tablet-pattern.svg);
-    background-size: contain;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 a{
     text-decoration: none;
 }
 
-li{
+li, li a{
     list-style-type: none;
-    color: hsl(228, 39%, 23%);
+    color: hsl(239, 39%, 23%);
 }
 
 nav{
@@ -163,8 +166,9 @@ nav ul{
 
 .sec3UL{
    text-align: center;
-   background-color: whitesmoke;
+   background-color: white;
    margin: 90px 0px 0px;
+   box-shadow: 2px 2px 15px gainsboro;
 }
 
 .sec3UL img{
@@ -203,9 +207,9 @@ nav ul{
 footer{
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
     background-color: hsl(228, 39%, 23%);
-    padding: 50px 0;    
+    padding: 20px 45px;    
 }
 
 footerD1{
